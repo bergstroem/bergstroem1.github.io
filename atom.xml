@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Mattias Bergström]]></title>
+  <link href="http://bergstroem1.github.io/atom.xml" rel="self"/>
+  <link href="http://bergstroem1.github.io/"/>
+  <updated>2014-01-12T20:46:19+01:00</updated>
+  <id>http://bergstroem1.github.io/</id>
+  <author>
+    <name><![CDATA[Mattias Bergström]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[My first Hello World]]></title>
+    <link href="http://bergstroem1.github.io/blog/2014/01/11/my-first-hello-world/"/>
+    <updated>2014-01-11T00:52:43+01:00</updated>
+    <id>http://bergstroem1.github.io/blog/2014/01/11/my-first-hello-world</id>
+    <content type="html"><![CDATA[<p>This is a hello world in C#. Pretty simple!</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+</pre></td><td class='code'><pre><code class='csharp'><span class='line'><span class="c1">// A Hello World! program in C#. </span>
+</span><span class='line'><span class="k">using</span> <span class="nn">System</span><span class="p">;</span>
+</span><span class='line'><span class="k">namespace</span> <span class="nn">HelloWorld</span>
+</span><span class='line'><span class="p">{</span>
+</span><span class='line'>    <span class="k">class</span> <span class="nc">Hello</span>
+</span><span class='line'>    <span class="p">{</span>
+</span><span class='line'>        <span class="k">static</span> <span class="k">void</span> <span class="nf">Main</span><span class="p">()</span>
+</span><span class='line'>        <span class="p">{</span>
+</span><span class='line'>            <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;Hello World!&quot;</span><span class="p">);</span>
+</span><span class='line'>
+</span><span class='line'>            <span class="c1">// Keep the console window open in debug mode.</span>
+</span><span class='line'>            <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;Press any key to exit.&quot;</span><span class="p">);</span>
+</span><span class='line'>            <span class="n">Console</span><span class="p">.</span><span class="n">ReadKey</span><span class="p">();</span>
+</span><span class='line'>        <span class="p">}</span>
+</span><span class='line'>    <span class="p">}</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Breaking news]]></title>
+    <link href="http://bergstroem1.github.io/blog/2014/01/11/breaking-news/"/>
+    <updated>2014-01-11T00:09:58+01:00</updated>
+    <id>http://bergstroem1.github.io/blog/2014/01/11/breaking-news</id>
+    <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<figure class='code'><figcaption><span>Discover if a number is prime</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='objective-c'><span class='line'><span class="n">Post</span><span class="o">*</span> <span class="n">p</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="n">posts</span><span class="p">[</span><span class="n">indexPath</span><span class="p">.</span><span class="n">item</span><span class="p">];</span>
+</span><span class='line'><span class="n">cell</span><span class="p">.</span><span class="n">title</span><span class="p">.</span><span class="n">text</span> <span class="o">=</span> <span class="n">p</span><span class="p">.</span><span class="n">title</span><span class="p">;</span>
+</span><span class='line'><span class="n">cell</span><span class="p">.</span><span class="n">location</span><span class="p">.</span><span class="n">text</span> <span class="o">=</span> <span class="n">p</span><span class="p">.</span><span class="n">location</span><span class="p">;</span>
+</span><span class='line'><span class="n">NSString</span><span class="o">*</span> <span class="n">price</span> <span class="o">=</span> <span class="p">[</span><span class="n">NSString</span> <span class="nl">stringWithFormat:</span><span class="s">@&quot;%.0f&quot;</span><span class="p">,</span> <span class="p">(</span><span class="n">p</span><span class="p">.</span><span class="n">price</span> <span class="o">*</span> <span class="mf">0.01</span><span class="p">)];</span>
+</span><span class='line'><span class="n">cell</span><span class="p">.</span><span class="n">price</span><span class="p">.</span><span class="n">text</span> <span class="o">=</span> <span class="p">[</span><span class="n">price</span> <span class="nl">stringByAppendingString:</span><span class="s">@&quot; kr&quot;</span><span class="p">];</span>
+</span><span class='line'><span class="n">cell</span><span class="p">.</span><span class="n">image</span><span class="p">.</span><span class="n">backgroundColor</span> <span class="o">=</span> <span class="n">p</span><span class="p">.</span><span class="n">meanPhotoColor</span><span class="p">;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hello world]]></title>
+    <link href="http://bergstroem1.github.io/blog/2014/01/10/hello-world/"/>
+    <updated>2014-01-10T23:07:02+01:00</updated>
+    <id>http://bergstroem1.github.io/blog/2014/01/10/hello-world</id>
+    <content type="html"><![CDATA[<p>Is this thing on? Just trying it out!</p>
+]]></content>
+  </entry>
+  
+</feed>
